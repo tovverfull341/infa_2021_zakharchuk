@@ -33,11 +33,11 @@ def main():
         polygon(screen,color,points_3)
         """Живность"""
     def bird(mx,my,color,scale):
-        points_b = ((mx, my), ((mx + 8) / scale, (my + 26) / scale), ((mx + 80) / scale, (my + 59) / scale),
-                    ((mx + 153) / scale, (my + 6) / scale),
-                    ((mx + 158) / scale, (my - 19) / scale), ((mx + 134) / scale, (my - 10) / scale),
-                    ((mx + 77) / scale, (my + 25) / scale),
-                    ((mx + 31) / scale, (my - 1) / scale), (mx, my))
+        points_b = ((mx, my), (mx + 8 / scale, my + 26 / scale), (mx + 80 / scale, my + 59 / scale),
+                    (mx + 153 / scale, my + 6 / scale),
+                    (mx + 158 / scale, my - 19 / scale), (mx + 134 / scale, my - 10 / scale),
+                    (mx + 77 / scale, my + 25 / scale),
+                    (mx + 31 / scale, my - 1 / scale), (mx, my))
         polygon(screen,color,points_b)
 
 
